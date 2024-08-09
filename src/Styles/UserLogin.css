@@ -1,0 +1,27 @@
+.loginuser form{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 20px;
+}
+.loginuser input{
+    margin: 10px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 15px;
+    font-size: 15px;
+}
+.loginuser{
+    background-image: url(https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg?size=626&ext=jpg&ga=GA1.1.44546679.1716854400&semt=ais_user);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}

@@ -1,0 +1,39 @@
+.adminlogin form{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: 0px 0px 20px white;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+.adminlogin input{
+    margin: 10px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.adminlogin{
+    background-image: url(https://www.shutterstock.com/image-vector/lock-polygonal-wireframe-mesh-looks-260nw-1066806143.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 20px;
+    display: grid;
+    grid-row: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+}
+.adminlogin p{
+   display: grid;
+   grid-template-columns: 200px 200px;
+   margin-top: 80px;
+}
+.adminlogin a:hover{
+    color: white;
+}

@@ -1,0 +1,24 @@
+.adminnavbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: greenyellow;
+    padding: 0px 50px;
+    height: 80px;
+}
+.adminnavbar .logo h2{
+    color: darkmagenta;
+}
+.adminnavbar .logo sup{
+    color: brown;
+}
+.adminnavbar .logo img{
+    height: 80px;
+    width: 110px;
+    border-radius: 50%;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

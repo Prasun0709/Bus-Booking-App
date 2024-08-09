@@ -1,0 +1,53 @@
+.ViewBus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .bus_details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 250px; /* Adjust width as needed */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .bus_details h4 {
+    margin: 0 0 10px 0;
+  }
+  
+  .bus_details i {
+    margin-bottom: 10px;
+  }
+  
+  .bus_details p {
+    margin: 5px 0;
+  }
+  
+  .bus_details span {
+    margin-bottom: 10px;
+  }
+  
+  .bus_details .btn {
+    margin: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-warning {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #d9534f;
+    color: white;
+  }
+  
